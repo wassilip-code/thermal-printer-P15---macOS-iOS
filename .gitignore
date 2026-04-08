@@ -1,0 +1,42 @@
+# Xcode / сборка
+build/
+DerivedData/
+*.xcarchive
+*.xcresult
+*.ipa
+*.dSYM.zip
+dist/
+xcuserdata/
+*.xcuserstate
+*.hmap
+*.linkfilelist
+*.DependencyMetadataFileList
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods (если появятся)
+Pods/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Локальные секреты
+.env
+.env.*
+.netrc
+
+# Временные логи экспорта (если кладёте не в dist/)
+ExportOptions-local.plist
